@@ -41,4 +41,4 @@ The logistic regression model performed extremely well, with an accuracy of 99%.
 
 While the logistic regression model shows excellent overall performance, I recommend the model for use by the company with some caution. Its high recall for high-risk loans (94%) ensures that the majority of risky loans are identified, which is critical for mitigating financial losses. However, the 84% precision for high-risk loans means that some healthy loans are misclassified, which could lead to customer dissatisfaction or missed opportunities.
 
-To improve the model, I suggest further tuning or experimenting with more advanced models (e.g., Random Forest or Gradient Boosting) to address the misclassification of healthy loans. Despite this limitation, the model's strong accuracy, recall, and precision for both categories make it a valuable tool for loan risk assessment.
+To improve the model, I suggest further tuning or experimenting with more advanced models (like Random Forest) to address the misclassification of healthy loans. Despite this limitation, the model's strong accuracy, recall, and precision for both categories make it a valuable tool for loan risk assessment.
